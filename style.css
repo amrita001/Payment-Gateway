@@ -1,0 +1,202 @@
+  
+  /* First layer */
+
+  #title {
+    background-color: #BA135D;
+    color: #fff;
+    position: relative;
+    top: 10%;
+    padding: 0;
+    height: 80%;
+    min-height: 80%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  img{
+    height: 400px;
+    width: 400px;
+  }
+
+  .page-title{
+    color: #fff;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.1rem;
+  }
+  
+  .title-para {
+    color: #fff;
+  }
+  
+  .container-fluid {
+    padding: 6% 10% 6% 10%;
+  }
+  
+  body {
+    font-family: Montserrat;
+  }
+  
+  .dog-image {
+    width: 100%;
+    right: 70%;
+  }
+   
+  /* second layer */
+  
+  .second-layer {
+    padding: 1% 10%;
+    background-color: #fff;
+    position: relative;
+    height: 450px;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .icon,p,i {
+    color: #0A1931;
+  }
+
+  .paw-symbol{
+    color: #fff;
+  }
+
+  .text{
+    text-align: justify;
+  }
+  
+  .icon{
+    margin-bottom: 1rem;
+  }
+  
+  
+  /* third layer */
+
+  .third-layer{
+    background-color: #BA135D;
+    color: #fff;
+    padding: 0 15%;
+    text-align: center;
+    height: 150px;
+  }
+
+  .last-heading{
+      font-family: 'Oswald', sans-serif;
+      font-size: 3.5rem;
+      line-height: 1.5;
+      color: #fff;
+  }
+
+  /* For responsiveness */
+
+  @media (max-width: 1024px){
+    h1{
+      font-size: 3rem;
+    }
+    .second-layer{
+      height: 500px;
+    }
+  }
+
+  /* For tablet screens */
+  @media (max-width: 991px){
+    .icon{
+      font-size: 14px;
+    }
+
+    .text{
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .second-layer{
+      min-height: 790px;
+    }
+  }
+  @media (max-width: 700px){
+    .second-layer{
+      min-height: 790px;
+    }
+  }
+
+  @media (max-width: 728px){
+    .second-layer{
+      min-height: 800px;
+    }
+  }
+  
+  
+  /* For mobile screens */
+  @media (max-width: 502px){
+
+    #title{
+      padding: 0;
+      height: 80%;
+      text-align: center;
+    }
+
+    h1{
+      font-size: 2rem;
+    }
+
+    .page-title{
+      font-size: 1rem;
+    }
+
+   .dog-image{
+      height: 180px;
+      width: 100%;
+    }
+
+    .icon{
+      font-size: 12px;
+    }
+
+    h3{
+      font-size: 1.7rem;
+      padding-top: 8px;
+    }
+
+    .text{
+      text-align: center;
+      font-size: 14px;
+    }
+
+    p{
+      font-size: 12px;
+    }
+
+    .second-layer{
+      min-height: 790px;
+    }
+    .feature-box {
+      text-align: center;
+      padding: 5%;
+    }
+    .third-layer{
+      height: auto;
+    }
+    .last-heading{
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (max-width: 375px){
+    .second-layer{
+      min-height: 800px;
+    }
+    .text{
+      font-size: 14px;
+    }
+  }  
+  @media (max-width: 327px){
+    .second-layer{
+      min-height: 820px;
+    }
+  }
